@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon App</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andy&display=swap">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%; 
+            display: flex;
+            justify-content: center;
+            align-items: flex-start; 
+        }
+        body {
+            background-image: url('/images/pokeball-bg.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 5vh; 
+        }
+        a {
+            display: block;
+            text-align: center;
+            color: red;
+            margin-top: 10vh;
+            font-size: 4vw; 
+            text-decoration: none; 
+            font-family: 'Andy', sans-serif; 
+        }
+        .logo {
+            max-width: 100%; 
+            height: auto; 
+            margin-bottom: 10vh; 
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="/images/pokemon-logo.png" alt="logo" class="logo">
+        <a href="/game">Play Naming Game</a>
+    </div>
+</body>
+</html>
